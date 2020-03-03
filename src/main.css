@@ -1,0 +1,116 @@
+/* CLASSES BASES */
+body {
+    background-color: #9f58fe;
+}
+
+input {
+    background-color: #fff;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn-calcular {
+    height: 3.5rem;
+}
+
+.titulo {
+    font-size: 7rem;
+    font-family: monospace;
+    margin: 1px 0px -7px 0px;
+    color: rgb(192, 176, 176);
+    text-align: center;
+}
+
+.imagem {
+    width: 30%;
+}
+
+.campos {
+    width: 50%;
+    border: none;
+    border-bottom: 1px #9f58fe inset;
+    outline: none;
+    text-align: center;
+    font-family: cursive;
+}
+
+/* FECHAMENTO CLASSE BASE */
+
+.box {
+    padding: 20px;
+    margin: auto;
+    max-width: 40%;
+    border-radius: 0.3rem;
+    background-color: #fff;
+}
+
+.horasDiarias, .diasEfetivos, .diasFerias, .valorProjeto {
+    height: 5.9rem;
+    margin: 2rem auto;
+    box-shadow: 0.5px 1px 4px black;
+    font-size: 15px;
+    font-family: cursive;
+    color: #290061;
+}
+
+.calcular {
+    box-shadow: 1.5px 1px 0.5px 0px #000;
+    width: 50%;
+    border-radius: 4px;
+    color: #6600ef;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.git{
+    width: 4%;
+    padding-left: 6px;
+}
+
+.github {
+    text-align: right;
+    margin-top: 19px;
+}
+
+.result {
+    color: #4d00b4
+}
+
+@media only screen and (max-width: 600px) {
+    .box {
+        padding: 75px;
+    }
+
+    .imagem {
+        width: 85%;
+        margin: -1rem auto;
+    }
+
+    .campos {
+        width: 90%;
+    }
+
+    .horasDiarias, .diasEfetivos, .diasFerias {
+        height: 7.9rem !important;
+        margin: -3rem -3.85rem 5rem -3.7rem !important;
+    }
+    .valorProjeto {
+        height: 7.9rem !important;
+        margin: -3rem -3.85rem 1rem -3.7rem !important
+    }
+
+    .calcular {
+        width: 100%;
+    }
+
+    .git{
+        width: 17%;
+    }
+
+    .github {
+        margin: 2rem -1rem auto;
+        width: 121%;
+    }
+}

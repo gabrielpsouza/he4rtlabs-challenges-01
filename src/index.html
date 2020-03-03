@@ -5,10 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora de Freela - He4rtDevs</title>
     <link rel="stylesheet" href="./main.css" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+
   </head>
-  <body>
-    <div>
-      <h1>Olá mundo.</h1>
+  <body  class="wallpaper">
+    <div class="titulo">
+      <img src="./img/heart-logo.png" class="imagem" />
+    </div>
+    <div class="box">      
+      <div class="horasDiarias center">
+        <p>Esse é o campo onde você deve considerar as horas que irá utilizar para desenvolver o projeto</p>
+        <input id="horasDiarias" class="campos" placeholder="Qtd de horas trabalhadas por dia" type="number" />
+      </div>
+      <div class="diasEfetivos center">
+        <p>Neste campo você deve nos informar quantos dias você irá trabalhar no projeto</p>
+        <input id="diasEfetivos" class="campos" placeholder="Dias efetivos trabalhadas" type="number" />
+      </div>
+      <div class="diasFerias center">
+        <p>Neste campo você deve nos informar quantos dias você irá descansar</p>
+        <input id="diasFerias" class="campos" placeholder="Dias de ferias pelo projeto" type="number" />
+      </div>
+      <div class="valorProjeto center">
+        <p>Neste campo você deve nos informar qual o valor que deseja ganhar com o projeto</p>
+        <input id="valorProjeto" class="campos" placeholder="Valor total do projeto" type="number" />
+      </div>
+
+      <div class="btn-calcular center">
+        <input type="button" class="calcular" value="Calcular" onclick="valida()" />
+        <br />
+        <span class="result" id="resultado"></span>
+      </div>
+      <div class="github">
+        <a href="https://github.com/gabrielpsouza" >@gabrielpsouza<img src="./img/download.png" alt="github" class="git" /></a>
+      </div>
     </div>
     <script src="./main.js"></script>
   </body>
